@@ -2,7 +2,7 @@
 
 Hello, and welcome! Whether you are looking for help, trying to report a bug,
 thinking about getting involved in the project or about to submit a patch, this
-document is for you! Its intent is to be both an entry point for newcomers to
+the document is for you! Its intent is to be both an entry point for newcomers to
 the community (with various technical backgrounds), and a guide/reference for
 contributors and maintainers.
 
@@ -127,7 +127,7 @@ https://github.com/Kong/docs.konghq.com/
 ### Proposing a new plugin
 
 We **do not** accept new plugins into the core repository. The plugins that are
-currently part of this repository are there because of historical reasons, but
+currently part of this repository is there because of historical reasons, but
 will be pushed into separate repositories in the foreseeable future.
 
 If you wish to write a new plugin for your own needs, you should start by
@@ -216,7 +216,7 @@ logical units of work. You are free to propose a patch with one or many
 commits, as long as their atomicity is respected. This means that no unrelated
 changes should be included in a commit.
 
-For example: you are writing a patch to fix a bug, but in your endeavour, you
+For example, you are writing a patch to fix a bug, but in your endeavour, you
 spot another bug. **Do not fix both bugs in the same commit!** Finish your
 work on the initial bug, propose your patch, and come back to the second bug
 later on. This is also valid for unrelated style fixes, refactors, etc...
@@ -501,9 +501,9 @@ Proudly wear your T-shirt and show it to us by tagging
 
 ## Code style
 
-In order to ensure a healthy and consistent codebase, we ask of you that you
+In order to ensure a healthy and consistent codebase, we ask that you
 respect the adopted code style. This section contains a non-exhaustive list
-of preferred styles for writing Lua. It is opinionated, but follows the
+of preferred styles for writing Lua. It is opinionated but follows the
 code styles of OpenResty and, by association, Nginx. OpenResty or Nginx
 contributors should find themselves at ease when contributing to Kong.
 
